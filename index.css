@@ -1,4 +1,5 @@
 body {
+    font-family: Montserrat, serif;
     margin: 0;
     padding: 0;
 }
@@ -9,9 +10,34 @@ body {
     margin: 100px auto;
 }
 
+/* Left menu */
+
 .left_menu {
     margin-top: 100px;
     width: 30%;
+}
+
+.left_menu ul {
+    list-style-type: none;  
+}
+
+.left_menu li{
+    vertical-align: middle;
+    line-height: 55px;
+    border-bottom: solid rgba(42, 95, 203, 0.15);
+    color: rgba(62, 62, 62, 0.7)
+}
+.left_menu li.active{
+    color : #2A5FCB;
+    background-image: url("./assets/arrow.svg") no-repeat right middle;
+}
+
+/* --- Left menu */
+
+.head {
+    font-weight: 600;
+    font-size: 38px;
+    line-height:46.32px;
 }
 
 .content {
