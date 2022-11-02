@@ -2,12 +2,14 @@ body {
     font-family: Montserrat, serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(237, 237, 237) !important;
 }
 
 .main {
     display: flex;
-    width: 992px;
+    max-width: 992px;
     margin: 100px auto;
+    background-color: #fff
 }
 
 /* Left menu */
@@ -18,17 +20,18 @@ body {
 }
 
 .left_menu ul {
-    list-style-type: none;  
+    list-style-type: none;
 }
 
-.left_menu li{
+.left_menu li {
     vertical-align: middle;
     line-height: 55px;
     border-bottom: solid rgba(42, 95, 203, 0.15);
     color: rgba(62, 62, 62, 0.7)
 }
-.left_menu li.active{
-    color : #2A5FCB;
+
+.left_menu li.active {
+    color: #2A5FCB;
     background-image: url("./assets/arrow.svg") no-repeat right middle;
 }
 
@@ -37,7 +40,7 @@ body {
 .head {
     font-weight: 600;
     font-size: 38px;
-    line-height:46.32px;
+    line-height: 46.32px;
 }
 
 .content {
@@ -48,4 +51,8 @@ body {
 input {
     box-sizing: border-box;
     width: 100%;
+}
+
+.act_available {
+    background-color: rgb(201, 201, 195);
 }
